@@ -1,0 +1,143 @@
+<mjml>
+    <!-- <mj-head>
+        <mj-attributes>
+            <mj-class name="button" background-color="#fcc245" 
+                color="#000000" 
+                font-size="18px" border-radius="3px" 
+                font-family="Ubuntu, Helvetica, Arial, sans-serif">
+            </mj-class>
+        </mj-attributes>
+    </mj-head> -->
+
+    <mj-body>
+
+        <!-- Droppa logo -->
+        <mj-section background-color="#0099d0" padding-bottom="1px">
+            <mj-column width="100%">
+                <mj-image src="http://www.droppergroup.co.za/assets/templates/logo2.png" width="150px" align="left"></mj-image>
+            </mj-column>
+        </mj-section>
+
+        <!-- The guy with the boxes & the truck man -->
+        <mj-section background-url="http://www.droppergroup.co.za/assets/templates/Group983/Group983.png"
+                    background-color="white">
+
+            <!-- Pick up guy with boxes -->
+            <mj-column>
+                <mj-image src="http://www.droppergroup.co.za/assets/templates/Group%201008/Group%201007@2x.png">
+                </mj-image>
+            </mj-column>
+
+            <!-- Pick up truck -->
+            <mj-column>
+                <mj-image src="http://www.droppergroup.co.za/assets/templates/Group_982/Group_982.png"
+                          padding-top="60px">
+                </mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-divider border-width="1px" border-style="solid" border-color="grey" padding="0px" width="100px"/>
+    
+        <!-- <mj-hero background-url="http://www.droppergroup.co.za/assets/templates/Group983/Group983.png"
+                 height="300px"
+                 padding="100px -100px 150px"
+                 mode="fixed-height">
+            <mj-image src="http://www.droppergroup.co.za/assets/templates/Group_1007/Group_1007@2x.png"
+                      align="left">
+            </mj-image>
+            <mj-image src="http://www.droppergroup.co.za/assets/templates/Group_982/Group_982.png"
+                      align="right">
+            </mj-image>
+        </mj-hero> -->
+
+        <!-- Section with the Customers name and details on registration -->
+        <mj-wrapper background-color="white">
+            <mj-section>
+
+                <!-- Client name with registration details --> 
+                <mj-column width="100%">
+                    <mj-text font-size="30px" padding="20px"><b/>Hi Ebenezer Meyer</mj-text>
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text>Thank you for Registering with Droppa, please kindly find the attached Droppa contract. Sign it and forward together with the below required documents to complete the registration.</mj-text>    
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text>
+                        <span>1. Certified ID Copy </span>
+                        <br/>
+                        <span>2. Company CIPC registration document (if applicable)</span>
+                        <br/>
+                        <span>3. Photo of the vehicle license disc</span>
+                        <br/>
+                    </mj-text>
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text font-size="20px" color="black" font-family="helvetica">
+                        <span style="font-size:15px">Regards,</span>
+                        <br/>
+                        <span style="font-size:15px; font-weight:bold">Droppa Team</span>
+                        <br/>
+                    </mj-text>    
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <!-- Get your goods delivered to your door way section -->
+        <mj-hero background-url="http://www.droppergroup.co.za/assets/templates/AdobeStock_215141298_Preview/AdobeStock_215141298_Preview@2x.png"
+                 height="200px">
+            
+            <!-- Text box with transporting your goods -->
+            <mj-button background-color="white" 
+                       color="black" 
+                       font-size="20px"
+                       align="left"
+                       font-style="oblique"
+                       padding-right="350px"
+                       inner-padding="10px 10px">
+                GET YOUR GOODS EASILY 
+                TRANSPORTED TO ALL YOUR OTHER 
+                BRANCHES WITH NO HUSTLE.
+            </mj-button>
+
+            <!-- Link to About Droppa page -->
+            <mj-button font-size="10px" background-color="#0A6D95" href="https://www.droppa.co.za/droppa/aboutDroppa">
+            <u>FIND OUT HOW IT WORKS</u>
+            </mj-button>
+        </mj-hero>
+
+        <!-- Footer section -->
+        <!-- <mj-section padding="30px" background-color="black" padding-bottom="30px">
+            <mj-column>
+                <mj-text mj-class="footer-text" align="center" padding="0 10px">
+                    <p style="Margin:0; padding-bottom:10px; 
+                    font-size:15px; line-height:15px; 
+                    Margin-bottom:15px; color:white; 
+                    font-family: 'Open Sans', 'Raleway', Arial, Helvetica, sans-serif;">
+                    <a style="text-decoration: none; color: inherit;">About Droppa</a>
+                    &nbsp;&nbsp;.&nbsp;&nbsp;
+                    <a style="text-decoration: none; color: inherit;">Help</a>
+                    &nbsp;&nbsp;.&nbsp;&nbsp;
+                    <a style="text-decoration: none; color: inherit;">Terms and Conditions</a>
+                    &nbsp;&nbsp;.&nbsp;&nbsp;
+                    <a style="text-decoration: none; color: inherit;">Report this transfer as spam</a>
+                    &nbsp;&nbsp;.&nbsp;&nbsp;
+                    <a style="text-decoration: none; color: inherit;">Unsubscribe from mail</a>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section> -->
+
+        <!-- Social media icons -->
+        <mj-section padding="30px" background-color="black" padding-bottom="30px">
+            <mj-column>
+                <mj-social icon-size="25px" mode="horizontal" inner-padding="10px">
+                    <mj-social-element name="facebook" href="https://www.facebook.com/DroppaSA">
+                    </mj-social-element>
+                    <mj-social-element name="twitter" href="https://twitter.com/DroppaZA">
+                    </mj-social-element>
+                    <mj-social-element name="instagram" href="https://www.instagram.com/droppa_sa">
+                    </mj-social-element>
+                    <mj-social-element name="linkedin" href="https://www.linkedin.com/company/droppa-south-africa">
+                    </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

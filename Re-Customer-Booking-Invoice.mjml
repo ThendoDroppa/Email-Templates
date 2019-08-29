@@ -1,0 +1,245 @@
+<mjml>
+  <mj-body width="500px">
+
+    <!-- Droppa header with the date & payment option-->
+    <mj-section background-url="http://www.droppergroup.co.za/assets/templates/Component_13.png"
+                background-repeat="repeat"
+                background-color="#eeeeee" 
+                vertical-align="middle" 
+                background-size="cover">
+        <mj-column>
+            <mj-text align="right" color="white" font-size="20px" font-family="Segoe ui">2019-06-25</mj-text>
+            <mj-image src="http://www.droppergroup.co.za/assets/templates/NEW_LOGO.png"
+                      width="300px" 
+                      align="center"
+                      padding="1px 1px">
+            </mj-image>
+            <mj-divider width="71%" border-color="#fff" border-style="solid" border-width="1.5px" padding-bottom="50px"></mj-divider>
+            <mj-button background-color="#111" font-family="Segoe ui" font-size="25px" width="400px" align="center">
+                Payment:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                <b>R2500.00</b>
+            </mj-button>    
+        </mj-column>
+    </mj-section>
+
+    <!-- Pick up and drop off address -->
+    <mj-section background-color="#eeeeee">
+      <mj-column width="90%"
+                 background-color="#eeeeee">
+        
+        <mj-text font-family="Segoe ui" font-size="15px">
+          166 Witchhazel Ave, Highveld Technopark,
+          Centurion, 0169
+        </mj-text>
+        
+        <mj-divider width="100%" border-width="1px" border-style="solid" border-color="#0099d0" />
+        
+        <mj-text font-family="Segoe ui" font-size="15px">
+          100 Witchhazel Ave, Highveld Technopark,
+          Centurion, 0169
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Map section -->
+    <mj-section background-color="#eeeeee" padding="1px" padding-top="1px">
+      <mj-column width="100%">
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/Map_Large.png">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Details section -->
+    <mj-section background-color="#eeeeee" padding-bottom="10px">
+      <mj-column width="90%" vertical-align="middle" background-color="#0099d0" padding-bottom="20px">
+
+        <mj-text font-family="Segoe ui" font-size="20px" color="white" align="center" padding-left="20px">
+          <b>Delivery Information
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+        
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 145px;">
+            Name
+            <b>Chauke-Rhulani</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 143px;">
+            <span style="word-wrap: break-word;">Phone</span>
+            <b>0792581234</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 120px" 
+             text-transform="uppercase">
+            Reference
+            <b>GAU12323</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+        
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 135px">
+            Labours
+            <b>02</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 139px">
+            Canopy
+            <b>Not-Required</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 143px">
+            Vehicle
+            <b>Mini_Van</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 142px">
+            Load(s)
+            <b>1</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text font-size="15px" color="white" align="left">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 158px">
+            Time
+            <b>14:16</b>
+            <!-- <b>PM</b> -->
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+        
+        <mj-text font-size="15px" color="white" align="left" line-height="10px">
+          <p style="Margin:0; color:white; font-family:Segoe ui; padding-left: 35px; word-spacing: 160px">
+            Date
+            <b>2013-01-30</b>
+          </p>
+        </mj-text>
+        <mj-divider padding-top="1px" border-color="#fff" border-style="solid" border-width="1px" padding-left="50px" padding-right="70px"></mj-divider>
+
+        <mj-text padding-top="1px" font-size="15px" color="white" align="left" padding-bottom="1px">
+            <p style="font-family:Segoe ui; padding-left: 35px;">
+            Booking Comments
+            </p> 
+        </mj-text>
+        <mj-button background-color="#ffffff" 
+                   font-family="Segoe ui" 
+                   font-size="15px" 
+                   border-radius="10px"
+                   width="340px"
+                   height="70px">
+                   <span style="color: #212020; word-wrap: break-word;">
+                    Please handle with care. Address: 
+                    13 Esdoring nook street, 
+                    Central Park Unit 1 First Floor Right, 
+                    Highveld Techno Park, 
+                    Centurion, 
+                    0157
+                    Additional texts is used to test the spacing section....
+                    </span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- <mj-section background-color="#eeeeee">
+    </mj-section> -->
+
+    <!-- Track booking section -->
+    <mj-hero background-url="http://www.droppergroup.co.za/assets/templates/Image%209@3x.png"
+             height="200px">
+      <mj-button background-color="#0099d0" 
+                 color="white" 
+                 font-size="15px" 
+                 align="right"
+                 width="250px" 
+                 height="30px"
+                 border-radius="35px"
+                 padding-top="45px"
+                 font-family="Segoe ui">
+                 Track your Booking Online &#8594;
+      </mj-button>
+    </mj-hero>
+
+    <!-- <mj-section background-color="#eeeeee">
+    </mj-section> -->
+
+    <!-- Footer section -->
+    <mj-section background-color="#0099d0">
+      <mj-column width="92%">
+        
+        <mj-text font-weight="bold" font-size="20px" align="center" font-family="Segoe ui" padding="1px">
+          Let Your Thumb Do The Drop
+        </mj-text>
+        <mj-social icon-size="45px" mode="horizontal" inner-padding="10px">
+          <mj-social-element name="facebook" 
+                             href="https://www.facebook.com/DroppaSA"
+                             background-color="black"
+                             border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="twitter" 
+                             href="https://twitter.com/DroppaZA"
+                             background-color="black"
+                             border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="instagram" 
+                             href="https://www.instagram.com/droppa_sa"
+                             background-color="black"
+                             border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="linkedin" 
+                             href="https://www.linkedin.com/company/droppa-south-africa"
+                             background-color="black"
+                             border-radius="50px">
+          </mj-social-element>
+        </mj-social>
+        <mj-text align="justify">
+            <p style="font-size: 14px;
+                      color: black;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;
+                      margin: 1px;">
+            Address: <br/> 13 Esdoring nook street, 
+                           Central Park Unit 1 First Floor Right,
+                           Highveld Techno Park, 
+                           Centurion, 
+                           0157
+            </p>
+            <p style="font-size: 14px;
+                      color: black;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;">
+            Email: <br/> info@droppa.co.za
+            </p>
+            <p style="font-size: 14px;
+                      color: black;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;">
+            Phone: <br/> (012) 880 2159
+            </p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

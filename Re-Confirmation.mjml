@@ -1,0 +1,126 @@
+<mjml>
+    <mj-body width="500px">
+        
+        <mj-section background-url="http://www.droppergroup.co.za/assets/templates/Component_13.png"
+                background-repeat="repeat"
+                background-color="#eeeeee" 
+                vertical-align="middle" 
+                background-size="cover">
+            <mj-column width="92%">
+                <mj-image src="http://www.droppergroup.co.za/assets/templates/NEW_LOGO.png" 
+                      width="300px"
+                      height="150px" 
+                      align="center"
+                      padding="1px 1px">
+                </mj-image>
+            </mj-column>
+        </mj-section>
+        
+        <!-- Section with the Customers name and details on registration -->
+        <mj-wrapper background-color="white">
+            <mj-section>
+                <!-- Client name with registration details --> 
+                <mj-column width="100%">
+                    <mj-text font-family="Segoe ui" font-size="18px"><b/>Hi Ebenezer Meyer</mj-text>
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text font-family="Segoe ui">Thank you for Registering with Droppa, please kindly find the attached Droppa contract. Sign it and forward together with the below required documents to complete the registration.</mj-text>    
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text font-family="Segoe ui">
+                        <span>1. Certified ID Copy </span>
+                        <br/>
+                        <span>2. Company CIPC registration document (if applicable)</span>
+                        <br/>
+                        <span>3. Photo of the vehicle license disc</span>
+                        <br/>
+                    </mj-text>
+                        <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+                    <mj-text font-size="20px" color="black">
+                        <span style="font-size:15px">Regards,</span>
+                        <br/>
+                        <span style="font-size:15px; font-weight:bold">Droppa Team</span>
+                        <br/>
+                    </mj-text>    
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-hero background-url="http://www.droppergroup.co.za/assets/templates/Image%209@3x.png"
+                 height="200px">
+            <mj-button background-color="#0099d0" 
+                 color="white" 
+                 font-size="15px" 
+                 align="right"
+                 width="250px" 
+                 height="30px"
+                 border-radius="35px"
+                 padding-top="45px"
+                 font-family="Segoe ui"
+                 href="https://www.droppa.co.za/droppa/aboutDroppa">
+                Find How Droppa Works &#8594;
+            </mj-button>
+        </mj-hero>
+
+        <mj-section background-color="#0099d0">
+            <mj-column width="92%">
+        
+                <mj-text font-weight="bold" font-size="20px" align="center" font-family="Segoe ui" padding="1px">
+                    Let Your Thumb Do The Drop
+                </mj-text>
+        
+                <mj-social icon-size="45px" mode="horizontal" inner-padding="10px">
+                    <mj-social-element name="facebook" 
+                                        href="https://www.facebook.com/DroppaSA"
+                                        background-color="black"
+                                        border-radius="50px">
+                    </mj-social-element>
+                    <mj-social-element name="twitter" 
+                                        href="https://twitter.com/DroppaZA"
+                                        background-color="black"
+                                        border-radius="50px">
+                    </mj-social-element>
+                    <mj-social-element name="instagram" 
+                                        href="https://www.instagram.com/droppa_sa"
+                                        background-color="black"
+                                        border-radius="50px">
+                    </mj-social-element>
+                    <mj-social-element name="linkedin" 
+                                        href="https://www.linkedin.com/company/droppa-south-africa"
+                                        background-color="black"
+                                        border-radius="50px">
+                    </mj-social-element>
+                </mj-social>
+        
+                <mj-text align="justify">
+                    <p style="font-size: 14px;
+                            color: black;
+                            text-align: center;
+                            font-family: Segoe ui;
+                            font-weight: bold;
+                            margin: 1px;">
+                    Address: <br/> 13 Esdoring nook street, 
+                                Central Park Unit 1 First Floor Right,
+                                Highveld Techno Park, 
+                                Centurion, 
+                                0157
+                    </p>
+                    <p style="font-size: 14px;
+                            color: black;
+                            text-align: center;
+                            font-family: Segoe ui;
+                            font-weight: bold;">
+                    Email: <br/> info@droppa.co.za
+                    </p>
+                    <p style="font-size: 14px;
+                            color: black;
+                            text-align: center;
+                            font-family: Segoe ui;
+                            font-weight: bold;">
+                    Phone: <br/> (012) 880 2159
+                    </p>
+                </mj-text>
+        
+            </mj-column>
+        </mj-section>
+        
+    </mj-body>
+</mjml>

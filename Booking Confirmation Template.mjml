@@ -1,0 +1,164 @@
+<mjml>
+
+  <!-- <mj-head>
+        <mj-attributes>
+        <mj-image alt="" padding="0px"></mj-image>
+        <mj-section padding="0px"></mj-section>
+        <mj-class name="open-sans-button" font-family="Open Sans, Arial, sans-serif" background-color="#111111" color="#ffffff" height="30px" text-transform="uppercase" font-size="16px" text-decoration="none"></mj-class>
+        <mj-class name="footer-text" font-family="Open Sans, Arial, sans-serif" color="#111111" font-size="10px" line-height="14px"></mj-class>
+        <mj-class name="body-text" font-family="Open Sans, Arial, sans-serif" color="#111111" font-size="16px" line-height="26px" align="center"></mj-class>
+        <mj-class name="headline-text" font-family="Big Caslon, Garamond, Times, serif" color="#111111" font-size="40px" line-height="36px" align="center" text-transform="uppercase"></mj-class>
+        </mj-attributes>
+        <mj-font name="Open Sans" href="http://fonts.googleapis.com/css?family=Open+Sans"></mj-font>
+    </mj-head> -->
+
+  <mj-body width="600px">
+    
+    <!-- Droppa header -->
+    <mj-section background-color="#0099d0" padding-bottom="1px">
+      <mj-column width="100%">
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/logo2.png" width="150px" align="left">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <!-- Greeting text to the person -->
+        <mj-text font-size="30px"><b/>Hi Mooloko</mj-text>
+        <mj-text>Thank you for your booking. Please see below your Booking confirmation details.</mj-text>
+        
+        <!-- Reference number -->
+        <mj-button background-color="#0099d0" height="30px" width="110px" font-weight="bold">
+        Ref: 2345
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Pick up truck with load and mini van -->
+    <mj-section background-color="white">
+      
+      <mj-column>
+        <!-- Contact person box -->
+        <mj-button background-color="#0099d0" font-size="15px" height="30px" width="250px" align="center">
+          Please contact <b>ARMEL</b>: 0729976804 to come and collect.
+        </mj-button>
+
+        <!-- Number of deliveries & type of truck -->
+        <mj-button background-color="#0099d0" font-size="15px" height="30px" width="250px" align="center"> 
+          <a style="text-decoration: none; color: inherit;">1 Load</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a style="text-decoration: none; color: inherit;">Mini Van</a>
+        </mj-button>
+      </mj-column>
+
+      <mj-column>
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/Group_982/Group_982@2x.png" height="120px" width="250px">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <!-- Greeting with booking confirmation details and reference number -->
+    <mj-section background-color="white">
+
+      <!-- Picture of the map -->
+      <mj-column width="100%">
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/Group%201027/Group%201027@2x.png">
+        </mj-image>
+      </mj-column>
+
+      <!-- Pick up, Drop off address, times, date,  -->
+      <mj-column background-color="#0099d0" width="100%" padding-bottom="10px">
+        
+        <!-- Pick up address -->
+        <mj-text font-size="15px" color="white" font-family="Helvetica" align="center">
+        <span style="font-weight: bold;">Pick Up Address:</span>
+        <br/>
+        <span>105 Tecoma Flat, 196 Silver Street, Muckleneuk, Gauteng, Pretoria</span>
+        </mj-text>
+        
+        <!-- Drop off address -->
+        <mj-text font-size="15px" color="white" font-family="Helvetica" align="center">
+        <span style="font-weight: bold;">Pick Up Address:</span>
+        <br/>
+        <span>105 Theatre Flat Views, 150 Gerard Moerdyk Street, Sunnyside, Gauteng, Pretoria</span>
+        </mj-text>
+        <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="25px" padding-right="20px"></mj-divider>
+        
+        <!-- Time & Date-->
+        <mj-text font-size="15px" color="white" align="center">
+          <p style="Margin:0; color:white; font-family:Helvetica;">
+            Time: 08:00AM 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Date: 01-08-2019         
+            </p>
+        </mj-text>
+        <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="25px" padding-right="20px"></mj-divider>
+        
+        <!-- Assistant & Load -->
+        <mj-text font-size="15px" color="white" align="center">
+          <p style="Margin:0; color:white; font-family:Helvetica;">
+            Assistant(s): 1 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Load(s): 2         
+            </p>
+        </mj-text>
+        <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="25px" padding-right="20px"></mj-divider>
+        
+        <!-- Canopy -->
+        <mj-text font-size="15px" color="white" align="center">
+          <p style="Margin:0; color:white; font-family:Helvetica;">
+            Canopy: Not required          
+            </p>
+        </mj-text>
+        <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="25px" padding-right="20px"></mj-divider>
+
+        <!-- Bakkie type -->
+        <mj-button background-color="#111" font-family="Open Sans, Arial, sans-serif" font-size="15px" align="center" width="550px" border-radius="0px">
+          <span style="letter-spacing: 0px;">1.5 Ton Bakkie</span>
+        </mj-button>
+        
+        <!-- Total price -->
+        <mj-button background-color="#111" font-family="Ubuntu" font-size="15px" align="center" width="550px" border-radius="0px">
+          <span style="letter-spacing: 0px;">Total booking price: <b>ZAR 4698.00</b></span>
+        </mj-button>
+      </mj-column>  
+      
+    </mj-section>
+
+
+
+    <!-- Map & booking details sections -->
+    <mj-section background-color="white">
+    </mj-section>
+
+    <!-- Regards message -->
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text font-size="20px" color="black" font-family="helvetica">
+          <span style="font-size:15px">Regards,</span>
+          <br />
+          <span style="font-size:15px; font-weight:bold">Droppa Team</span>
+          <br />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social media icons -->
+    <mj-section padding="30px" background-color="black" padding-bottom="30px">
+        <mj-column>
+            <mj-social icon-size="25px" mode="horizontal" inner-padding="10px">
+                <mj-social-element name="facebook" href="https://www.facebook.com/DroppaSA">
+                </mj-social-element>
+                <mj-social-element name="twitter" href="https://twitter.com/DroppaZA">
+                </mj-social-element>
+                <mj-social-element name="instagram" href="https://www.instagram.com/droppa_sa">
+                </mj-social-element>
+                <mj-social-element name="linkedin" href="https://www.linkedin.com/company/droppa-south-africa">
+                </mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
