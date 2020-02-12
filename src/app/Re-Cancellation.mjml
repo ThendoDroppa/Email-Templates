@@ -1,0 +1,106 @@
+<mjml>
+  <mj-body width="500px">
+    <!-- Droppa Logo -->
+    <mj-section background-url="http://www.droppergroup.co.za/assets/templates/Component_13.png" background-repeat="repeat" background-color="#eeeeee" vertical-align="middle" background-size="cover">
+      <mj-column width="92%">
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/NEW_LOGO.png" width="300px" height="150px" align="center" padding="1px 1px">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section with Cancellation details -->
+    <mj-wrapper background-color="white">
+      <mj-section>
+        <!-- Client name with registration details -->
+        <mj-column width="100%">
+          <mj-text font-size="18px"><b />Hi Ebenezer Meyer</mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="white" padding="0px" />
+          <mj-text padding-bottom="100px">Your booking has been cancelled successfully.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Section with addresses -->
+    <mj-section background-color="white">
+      <mj-column background-color="#0099d0">
+        <mj-text font-family="Segoe ui" font-size="18px" color="white">
+          166 Witchhazel Ave, Highveld Technopark, Centurion, 0169
+        </mj-text>
+        <mj-text font-family="Segoe ui" font-size="18px" color="white">
+          166 Witchhazel Ave, Highveld Technopark, Centurion, 0169
+        </mj-text>
+        <mj-image src="http://www.droppergroup.co.za/assets/templates/Map_Large.png" fluid-on-mobile="true">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- <mj-section>
+            <mj-column>
+
+            </mj-column>
+        </mj-section> -->
+
+    <!-- Section with delivery guys -->
+    <mj-hero background-url="http://www.droppergroup.co.za/assets/templates/Image%209@3x.png" height="200px">
+      <mj-button background-color="#0099d0" color="white" font-size="15px" align="right" width="250px" height="30px" border-radius="35px" padding-top="45px" font-family="Segoe ui" href="https://www.droppa.co.za/droppa/aboutDroppa">
+        Find How Droppa Works
+      </mj-button>
+    </mj-hero>
+
+    <!-- footer with social media icons, address & contact details  -->
+    <mj-section background-color="#0099d0">
+      <mj-column width="92%">
+
+        <mj-text color="white" font-weight="bold" font-size="20px" align="center" font-family="Segoe ui" padding="1px">
+          Let Your Thumb Do The Drop
+        </mj-text>
+        <mj-social icon-size="45px" mode="horizontal" inner-padding="10px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/DroppaSA" background-color="black" border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/DroppaZA" background-color="black" border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/droppa_sa" background-color="black" border-radius="50px">
+          </mj-social-element>
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/company/droppa-south-africa" background-color="black" border-radius="50px">
+          </mj-social-element>
+        </mj-social>
+        <mj-text align="justify">
+          <p style="font-size: 14px;
+                      color: white;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;
+                      margin: 1px;">
+            Address: <br /> 13 Esdoring nook street,
+            Central Park Unit 1 First Floor Right,
+            Highveld Techno Park,
+            Centurion,
+            0157
+          </p>
+          <p style="font-size: 14px;
+                      color: white;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;">
+            Email: <br />
+            <a style="text-decoration:none; color:#ffffff; border:none;">
+              info@droppa.co.za
+            </a>
+          </p>
+          <p style="font-size: 14px;
+                      color: white;
+                      text-align: center;
+                      font-family: Segoe ui;
+                      font-weight: bold;">
+            Phone: <br />
+            <a style="text-decoration:none; border:none; color:#ffffff; font-weight:bold;">
+              (012) 880 2159
+            </a>
+          </p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
